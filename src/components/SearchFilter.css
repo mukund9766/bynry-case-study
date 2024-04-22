@@ -1,0 +1,26 @@
+/* styles/SearchFilter.css */
+.search-filter {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.search-filter-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.search-label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
